@@ -1,0 +1,92 @@
+body {
+    width : 800px;
+    margin : 100px auto;
+    font-family: Arial;
+    background-color: #b8b894;
+}
+
+h1 {
+ text-align: center;
+ margin-top : 10px;
+}
+
+h2 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.jar {
+  background-color: #446600;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.jar h1 {
+ font-size: 18px;
+}
+
+.jar .content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+
+.jar .content .jar-image {
+    margin-right: 0px;
+}
+
+.jar .content .jar-image img {
+    height: 100px;
+}
+
+.jar .content .jar-link {
+    padding-top: 20px;
+    
+}
+
+.jar .content .jar-link a {
+    text-decoration:none;
+    background-color: #223300;
+    color: #fff;
+}
+
+
+
+.jar .link {
+    display: block;
+    width: 200px;
+    margin : 0px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.description {
+    width: 600px;
+    margin: 0 auto;
+}
+.images {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.images img {
+    width: 150px;
+}
+
+.images .big-image img {
+    width: 250px;
+}
+
+.footer {
+    text-align: center;
+}
+.footer img {
+    width : 150px;
+}
